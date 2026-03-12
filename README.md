@@ -2,6 +2,8 @@
 
 **The MCP server every data scientist needs.** Search 2M+ ArXiv papers, find code implementations, track citations, get SOTA benchmarks — all from your AI assistant.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/smorande/arxiv-research-mcp)
+
 ## Why This Server?
 
 Data scientists spend ~30% of their time searching for papers, checking if code exists, comparing benchmarks. This MCP server brings all of that into your LLM workflow with zero API keys required.
