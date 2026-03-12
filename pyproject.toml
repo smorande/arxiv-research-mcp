@@ -1,0 +1,24 @@
+[project]
+name = "arxiv-research-mcp"
+version = "1.0.0"
+description = "MCP server for data scientists - search ArXiv papers, find code, get citations, track SOTA benchmarks"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    {name = "Dr. Swapnil Morande"}
+]
+keywords = ["mcp", "arxiv", "research", "machine-learning", "data-science"]
+dependencies = [
+    "mcp[cli]>=1.26.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.0.0",
+    "uvicorn>=0.30.0",
+]
+
+[project.scripts]
+arxiv-research-mcp = "arxiv_research_mcp:mcp.run"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
